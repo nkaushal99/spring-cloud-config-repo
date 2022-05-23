@@ -1,0 +1,11 @@
+spring:
+  profiles: zone2
+eureka:
+  instance:
+    metadataMap:
+      zone: zone2
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
+server:  
+  port: ${PORT:9110}
