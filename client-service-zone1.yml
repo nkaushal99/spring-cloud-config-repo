@@ -10,5 +10,5 @@ eureka:
 server:  
   port: ${PORT:9100}
 sample:
-  string.property: Client App
-  int.property: 1
+  string.property: Client Application
+  int.property: 2
