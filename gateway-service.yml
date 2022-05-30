@@ -33,5 +33,4 @@ spring:
           uri: lb://highlight-service
           predicates:
             - Path=/highlight/**
-    config:
             
